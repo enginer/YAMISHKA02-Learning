@@ -17,4 +17,8 @@ describe("SuperMegaTest", ()=>{
         expect(addr1.address).to.be.properAddress
     })
 
+    it("Transfering", async =>{
+        console.log(addr1.address.balanceOf())
+    })
+
 })
