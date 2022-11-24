@@ -18,7 +18,7 @@ describe("SuperMegaTest", ()=>{
     })
 
     it("Transfering", async =>{
-        console.log(addr1.address.balanceOf())
+        MyToken.balanceOf(addr1.address)
     })
 
 })
